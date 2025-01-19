@@ -1,0 +1,49 @@
+.section.hero .typography{
+    padding-right: 1em;
+}
+
+.section.hero .gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.75vw;
+}
+
+.section.hero .gallery .custom.image{
+    border-radius: 3px;
+    overflow: hidden;
+    transform: scale(0);
+    opacity: 0;
+    animation: getAnimationDuration(.5s) popOut forwards;
+}
+
+.section.hero .gallery .custom.image:nth-child(2){
+    animation-delay: .1s;
+}
+
+.section.hero .gallery .custom.image:nth-child(3){
+    animation-delay: .2s;
+}
+
+.section.hero .gallery .custom.image:nth-child(6){
+    animation-delay: .3s;
+}
+
+.section.hero .gallery .custom.image:nth-child(9){
+    animation-delay: .4s;
+}
+
+.section.hero .gallery .custom.image:nth-child(8){
+    animation-delay: .5s;
+}
+
+.section.hero .gallery .custom.image:nth-child(7){
+    animation-delay: .6s;
+}
+
+.section.hero .gallery .custom.image:nth-child(4){
+    animation-delay: .7s;
+}
+
+.section.hero .gallery .custom.image:nth-child(5){
+    animation-delay: .8s;
+}

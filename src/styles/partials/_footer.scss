@@ -1,0 +1,43 @@
+/* Footer Styles */
+.footer {
+    background-color: #0f0f0f;
+    color: #fff;
+    padding-block: 3em;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 1em;
+}
+  
+  /* Footer Section Styles */
+.footer-section p {
+    opacity: 0.9;
+    margin-bottom: .5em;
+}
+  
+.footer-section p.title {
+    opacity: 1;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 1em;
+}
+  
+.footer-section .title-icons {
+    font-size: 1.2em;
+}
+  
+.footer-section .title-icons svg {
+    margin-right: 0.5em;
+    margin-bottom: 0.2em;
+}
+  
+.footer-section .title-icons svg:nth-child(1) {
+    color: #0063f7;
+}
+  
+.footer-section .title-icons svg:nth-child(2) {
+    color: #ff0056;
+}
+  
+.footer-section .title-icons svg:nth-child(3) {
+    color: black;
+}
